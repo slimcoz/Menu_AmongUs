@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: AmongUs;
+    width: 100vw;
+    height: 100vh;
+  }
+
+header {
+    border-bottom: #25282c 2px solid;
+    height: 50px;
+  }
+
+img {
+    position: absolute;
+    max-width: 80px;
+    max-height: 80px;
+}
+.logo {
+    height: 50px;
+    width: 90px;
+    display: inline-block;
+   }
+
+nav {
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 10PX;
+  }
+
+.header-navega__item {
+    display: inline-block;
+    margin: 0 20px;
+    height: 50px;
+    width: 90px;
+}
+.header-navega__item a {
+    position: absolute;
+    color: white;
+    top: 10px;
+}
+
+.jugadores {
+    display: static;
+    width: 90px;
+    height: 560px;
+    border-bottom: #25282c 2px solid;
+    border-right: #25282c 2px solid;
+}
+
+.jugadores_ul {
+    display: static;
+    width: 90px;
+    height: 100%; 
+
+}
+
+.spacio {
+    display: static;
+    width: 80px;
+    height: 90px;
+    margin-top: 4px;
+    margin-left: 8px;
+    border-bottom: #25282c 2px solid;
+}
+
+.principal {
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 10PX;
+    top: 50px;
+}
+
+.principal_2_img {
+    position: absolute;
+    max-width: 1500px;
+    max-height: 1500px; 
+    right: 280PX;
+    top: 200px;
+}
+
+h1 {
+    position: absolute;
+    color:aqua;
+    width: 200px;
+    height: 100px;
+    right: 520PX;
+    top: 100px;  
+    text-align:center; 
+}
+
+.icono1 {
+    position: absolute;
+    max-width: 50px;
+    max-height: 56px;
+    left: 0px;
+    
+}
+.icono2 {
+    position: absolute;
+    max-width: 50px;
+    max-height: 56px;
+    right: 0px;
+}
